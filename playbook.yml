@@ -1,0 +1,7 @@
+---
+- name: Playbook-1
+  hosts: all
+  become: true
+  roles:
+     - webserver
+     - proxy      
